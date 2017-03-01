@@ -124,7 +124,7 @@ function run(){
 		contextoBuffer.font = "bold 25px Sue Ellen Francisco";
         contextoBuffer.fill = "#c94c4c"; 
 		contextoBuffer.fillText("Tiempo = " + Math.round(tiempo), 50, 35);
-		contextoBuffer.fillText("Puntos = " + parseInt(punto), 50, 65);
+		contextoBuffer.fillText("Nueces restantes = " + parseInt(punto), 50, 65);
 		objardillas.dibujar(contextoBuffer,0);
 		
 		for(i=0;i<4;i++){			
