@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Sue+Ellen+Francisco|Architects+Daughter');
+
+body {
+	background-color: #f18973;
+    background-image: url(imagenes/fondo1.jpg);
+}
+
+aside h1, aside h3{
+	color: #fff2df;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2.2em
+}
+h1 {
+    background-color: #f18973;
+    padding: 5px;
+}
+aside {
+	float: left;
+	clear: left;
+	margin:0em;
+	padding: 2em 5em 5em 7em;
+	text-align: center;
+    width: 35%;
+}
+
+section {
+	background-color: #a2836e;
+	margin: 2em;
+	padding: 3em;
+	text-align: center;
+    height: auto;
+}
+section canvas {
+    width: 700px;
+    height: 500px;
+}
+
+canvas {
+	background-image: url('imagenes/escenario2.png');
+    background-attachment: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-color: #f18973;
+	border: 5px solid #fff2df;
+	border-radius: 35px;
+}
+
+p {
+	padding: 0.1em;
+	color: #fff;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+i {
+    border: 2px solid white;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+}
+button i {
+    border: none;
+    color: #f18973;
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+}
+button {
+	margin:0em;
+	padding: 10px;
+    border: 2px solid #f18973;
+}
+button h4 {
+    color: #a2836e;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 25px;
+}
+button:hover {
+    background-color: #f18973;
+    cursor: pointer;
+    
+}
+button:hover h4, button:hover i {
+    color: #fff;
+}
+
+#ardilla, #nut, #nutbroken {
+	display:none;
+}
