@@ -6,7 +6,7 @@ html {
 
 body {
 	background-color: #f18973;
-    background-image: url(imagenes/fondo1.jpg);
+    background-image: url(../imagenes/fondo1.jpg);
     height: 100%; 
 }
 .contenido {
@@ -44,7 +44,7 @@ section canvas {
 }
 
 canvas {
-	background-image: url('imagenes/escenario2.png');
+	background-image: url('../imagenes/escenario2.png');
     background-attachment: contain;
     background-position: center;
     background-repeat: no-repeat;
