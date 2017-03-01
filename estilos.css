@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Sue+Ellen+Francisco|Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Sue+Ellen+Francisco|Architects+Daughter|Arima+Madurai');
 
 body {
 	background-color: #f18973;
@@ -88,7 +88,23 @@ button:hover h4, button:hover i {
 }
 
 
+/* Pie de Página */
+footer {
+    height: auto;
+    background-color: #0B1D2C;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    font-family: 'Arima Madurai';
+    font-size: 0.95em;
+    padding: 0px;
+}
 
+
+/* Query (Responsive) */
 @media (max-width: 991px) {
     aside {
         background-color: #a2836e;
