@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Sue+Ellen+Francisco|Architects+Daughter|Arima+Madurai');
 
+html {
+    height: 100%;
+}
+
 body {
 	background-color: #f18973;
     background-image: url(imagenes/fondo1.jpg);
+    height: 100%; 
+}
+.contenido {
+    min-height: 100%;
 }
 
 aside h1, aside h3{
