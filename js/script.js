@@ -30,11 +30,11 @@ function inicio(){
 	contextoBuffer = buffer.getContext("2d");
 	contextoBuffer.fillStyle = "#c94c4c"; 
 	contextoBuffer.clearRect(0,0,700,500);
-	contextoBuffer.font = "bold 60px Caveat Brush";
-	contextoBuffer.fillText("¡A jugar!", 260, 200);
+	contextoBuffer.font = "bold 60px Sue Ellen Francisco";
+	contextoBuffer.fillText("¡A jugar!", 280, 200);
 	contextoBuffer.fillStyle = "#c94c4c"; 
 	contextoBuffer.font = "bold 70px Sue Ellen Francisco";
-	contextoBuffer.fillText("Nut's", 310, 290);
+	contextoBuffer.fillText("Bellotas", 280, 300);
 	contexto.clearRect(0,0,700,500);
 	contexto.drawImage(buffer, 0, 0);
 	$("button").click(function(){	
@@ -124,7 +124,7 @@ function run(){
 		contextoBuffer.font = "bold 25px Sue Ellen Francisco";
         contextoBuffer.fill = "#c94c4c"; 
 		contextoBuffer.fillText("Tiempo = " + Math.round(tiempo), 50, 35);
-		contextoBuffer.fillText("Nueces restantes = " + parseInt(punto), 50, 65);
+		contextoBuffer.fillText("Bellotas atrapadas = " + parseInt(punto), 50, 65);
 		objardillas.dibujar(contextoBuffer,0);
 		
 		for(i=0;i<4;i++){			
@@ -148,10 +148,11 @@ function run(){
 		contextoBuffer.clearRect(0,0,700,500);
 		contextoBuffer.font = "bold 70px Sue Ellen Francisco";
         contextoBuffer.fillStyle = "#c94c4c";
-		contextoBuffer.fillText("Atrapaste", 240, 200);
-		contextoBuffer.fillText(parseInt(punto), 310, 290);
+        contextoBuffer.fillText("¡Tiempo!", 250, 200);
+		contextoBuffer.fillText("Atrapaste", 130, 320);
+		contextoBuffer.fillText(parseInt(punto), 350, 320);
 		contextoBuffer.font = "30px 70px Sue Ellen Francisco";
-		contextoBuffer.fillText(" nueces", 250, 340);
+		contextoBuffer.fillText(" bellotas", 400, 320);
 		contexto.clearRect(0,0,700,500);
 		contexto.drawImage(buffer, 0, 0);
 		$("button").css("display","inline");

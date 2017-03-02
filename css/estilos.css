@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Sue+Ellen+Francisco|Architects+Daughter|Arima+Madurai');
-
 html {
     height: 100%;
 }
 
 body {
-	background-color: #f18973;
-    background-image: url(../imagenes/fondo1.jpg);
+	background-color: #a2836e !important;
     height: 100%; 
 }
 .contenido {
@@ -86,6 +83,7 @@ button {
 	margin:0em;
 	padding: 10px;
     border: 2px solid #f18973;
+    background-color: #fff;
 }
 button h4 {
     color: #a2836e;
@@ -105,6 +103,22 @@ button:hover h4, button:hover i {
 	display:none;
 }
 
+
+/* Encabezado */
+header {
+    height: auto;
+    background-color: #0B1D2C;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+header h1, header h2 {
+    background-color: #0B1D2C;
+    text-align: center;
+    font-family: 'Chewy';
+    font-size: 2.2em
+    padding: 0px;
+}
 
 /* Pie de Página */
 footer {

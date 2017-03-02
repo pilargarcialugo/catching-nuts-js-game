@@ -2,26 +2,29 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Zombie VS Humans">
-		<meta name="author" content="María del Pilar García Lugo">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Chewy|Caveat+Brush|Sue+Ellen+Francisco|Architects+Daughter|Arima+Madurai" rel="stylesheet"> 
 		<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen">
 		<link rel="stylesheet" href="fonts/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        
-        <script src="libs/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
-		<script src="script.js" language="JavaScript1.2"></script>
-        
+            
         <link rel="shortcut icon" href="imagenes/nut.png">
         <title>Nut's</title>
 	</head>
 	
     <body>
+        
+        <header>
+            <h1>¡Atrapando Bellotas!</h2>
+        </header>
+        
         <div class="contenido">
             <aside>
                 <img id="ardilla" src="imagenes/ardilla2.png"/>
                 <img id="nut" src="imagenes/nut.png"/>
                 <img id="nutbroken" src="imagenes/nutbroken.png"/>
-                <h1>¡Atrapa las nueces!</h1>
+                <h1>Ayuda a Scrat a atrapar su alimento favorito</h1>
                 <img src="imagenes/nut2.png">
                 <p class="timetext">¡Tienes 60 segundos!</p>
                 <p><i class="fa fa-clock-o time" aria-hidden="true"></i></p>
@@ -35,7 +38,7 @@
 
             <section>
                 <canvas id="lienzo" width="700" height="500">
-                    Tu navegador no es compatible
+                    <p>Este navegador no es compatible.</p>
                 </canvas>
             </section>
 		</div>
@@ -49,5 +52,7 @@
         
         
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
+		<script src="js/script.js" language="JavaScript1.2"></script>
 	</body>
 </html>
